@@ -1,0 +1,1224 @@
+[2016-11-10 10:42:28.227] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-11-10 10:42:28.230] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-11-10 10:42:28.231] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-11-10 10:42:28.241] [INFO] console - D:\projectsNew\devicesManage\wmDevicesManage\static
+[2016-11-10 10:42:28.249] [INFO] server - Express server listening on port 3000
+[2016-11-10 10:42:28.250] [INFO] console - Express server listening on port 3000
+[2016-11-10 10:44:16.409] [INFO] routes.devicesList - {}
+[2016-11-10 10:44:16.427] [INFO] console - IncomingMessage {
+  _readableState: 
+   ReadableState {
+     objectMode: false,
+     highWaterMark: 16384,
+     buffer: [],
+     length: 0,
+     pipes: null,
+     pipesCount: 0,
+     flowing: null,
+     ended: false,
+     endEmitted: false,
+     reading: false,
+     sync: true,
+     needReadable: false,
+     emittedReadable: false,
+     readableListening: false,
+     resumeScheduled: false,
+     defaultEncoding: 'utf8',
+     ranOut: false,
+     awaitDrain: 0,
+     readingMore: false,
+     decoder: null,
+     encoding: null },
+  readable: true,
+  domain: null,
+  _events: {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  socket: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      TCP {
+        _externalStream: {},
+        fd: -1,
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0 },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Object],
+        timeout: [Function],
+        error: [Function: socketOnError],
+        close: [Object],
+        data: [Function: socketOnData],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 10,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false,
+        bufferedRequestCount: 0,
+        corkedRequestsFree: [Object] },
+     writable: true,
+     allowHalfOpen: true,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 3,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '6::::3000' },
+     _server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 3,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '6::::3000' },
+     _idleTimeout: 120000,
+     _idleNext: 
+      Socket {
+        _connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: 'localhost',
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: false,
+        destroyed: false,
+        bytesRead: 5813,
+        _bytesDispatched: 1673,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        _idleTimeout: 30000,
+        _idleNext: [Object],
+        _idlePrev: [Circular],
+        _idleStart: 105907,
+        read: [Function],
+        _consuming: true },
+     _idlePrev: { _idleNext: [Circular], _idlePrev: [Object] },
+     _idleStart: 109012,
+     parser: 
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Circular],
+        outgoing: null,
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     read: [Function],
+     _consuming: true,
+     _httpMessage: 
+      ServerResponse {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: true,
+        _removedHeader: {},
+        _contentLength: null,
+        _hasBody: true,
+        _trailer: '',
+        finished: false,
+        _headerSent: false,
+        socket: [Circular],
+        connection: [Circular],
+        _header: null,
+        _headers: [Object],
+        _headerNames: [Object],
+        _onPendingData: [Function: updateOutgoingData],
+        req: [Circular],
+        locals: [Object],
+        writeHead: [Function] } },
+  connection: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      TCP {
+        _externalStream: {},
+        fd: -1,
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0 },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Object],
+        timeout: [Function],
+        error: [Function: socketOnError],
+        close: [Object],
+        data: [Function: socketOnData],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 10,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false,
+        bufferedRequestCount: 0,
+        corkedRequestsFree: [Object] },
+     writable: true,
+     allowHalfOpen: true,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 3,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '6::::3000' },
+     _server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 3,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '6::::3000' },
+     _idleTimeout: 120000,
+     _idleNext: 
+      Socket {
+        _connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: 'localhost',
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: false,
+        destroyed: false,
+        bytesRead: 5813,
+        _bytesDispatched: 1673,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        _idleTimeout: 30000,
+        _idleNext: [Object],
+        _idlePrev: [Circular],
+        _idleStart: 105907,
+        read: [Function],
+        _consuming: true },
+     _idlePrev: { _idleNext: [Circular], _idlePrev: [Object] },
+     _idleStart: 109012,
+     parser: 
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Circular],
+        outgoing: null,
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     read: [Function],
+     _consuming: true,
+     _httpMessage: 
+      ServerResponse {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: true,
+        _removedHeader: {},
+        _contentLength: null,
+        _hasBody: true,
+        _trailer: '',
+        finished: false,
+        _headerSent: false,
+        socket: [Circular],
+        connection: [Circular],
+        _header: null,
+        _headers: [Object],
+        _headerNames: [Object],
+        _onPendingData: [Function: updateOutgoingData],
+        req: [Circular],
+        locals: [Object],
+        writeHead: [Function] } },
+  httpVersionMajor: 1,
+  httpVersionMinor: 1,
+  httpVersion: '1.1',
+  complete: false,
+  headers: 
+   { host: 'localhost:3000',
+     connection: 'keep-alive',
+     pragma: 'no-cache',
+     'cache-control': 'no-cache',
+     accept: '*/*',
+     'user-agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+     referer: 'http://localhost:3003/createDevice',
+     'accept-encoding': 'gzip, deflate, sdch, br',
+     'accept-language': 'zh-CN,zh;q=0.8',
+     cookie: 'connect.sess=s%3Aj%3A%7B%7D.czkKbQ4dgJn0ruBF5RSsJ4IljJQGWeDBoJ%2B3%2BEUMt44' },
+  rawHeaders: 
+   [ 'Host',
+     'localhost:3000',
+     'Connection',
+     'keep-alive',
+     'Pragma',
+     'no-cache',
+     'Cache-Control',
+     'no-cache',
+     'Accept',
+     '*/*',
+     'User-Agent',
+     'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+     'Referer',
+     'http://localhost:3003/createDevice',
+     'Accept-Encoding',
+     'gzip, deflate, sdch, br',
+     'Accept-Language',
+     'zh-CN,zh;q=0.8',
+     'Cookie',
+     'connect.sess=s%3Aj%3A%7B%7D.czkKbQ4dgJn0ruBF5RSsJ4IljJQGWeDBoJ%2B3%2BEUMt44' ],
+  trailers: {},
+  rawTrailers: [],
+  upgrade: false,
+  url: '/device/add?deviceId=567672167&deviceName=test_3&IMEI=324324&storageTime=535324324&deviceState=1&borrowState=1',
+  method: 'GET',
+  statusCode: null,
+  statusMessage: null,
+  client: 
+   Socket {
+     _connecting: false,
+     _hadError: false,
+     _handle: 
+      TCP {
+        _externalStream: {},
+        fd: -1,
+        reading: true,
+        owner: [Circular],
+        onread: [Function: onread],
+        onconnection: null,
+        writeQueueSize: 0 },
+     _parent: null,
+     _host: null,
+     _readableState: 
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: [],
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        defaultEncoding: 'utf8',
+        ranOut: false,
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: true,
+     domain: null,
+     _events: 
+      { end: [Object],
+        finish: [Function: onSocketFinish],
+        _socketEnd: [Function: onSocketEnd],
+        drain: [Object],
+        timeout: [Function],
+        error: [Function: socketOnError],
+        close: [Object],
+        data: [Function: socketOnData],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 10,
+     _maxListeners: undefined,
+     _writableState: 
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false,
+        bufferedRequestCount: 0,
+        corkedRequestsFree: [Object] },
+     writable: true,
+     allowHalfOpen: true,
+     destroyed: false,
+     bytesRead: 0,
+     _bytesDispatched: 0,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 3,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '6::::3000' },
+     _server: 
+      Server {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 3,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [Object],
+        _usingSlaves: false,
+        _slaves: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        _pendingResponseData: 0,
+        _connectionKey: '6::::3000' },
+     _idleTimeout: 120000,
+     _idleNext: 
+      Socket {
+        _connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: 'localhost',
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: false,
+        destroyed: false,
+        bytesRead: 5813,
+        _bytesDispatched: 1673,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        _idleTimeout: 30000,
+        _idleNext: [Object],
+        _idlePrev: [Circular],
+        _idleStart: 105907,
+        read: [Function],
+        _consuming: true },
+     _idlePrev: { _idleNext: [Circular], _idlePrev: [Object] },
+     _idleStart: 109012,
+     parser: 
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [Circular],
+        outgoing: null,
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: parserOnIncoming] },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     read: [Function],
+     _consuming: true,
+     _httpMessage: 
+      ServerResponse {
+        domain: null,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: false,
+        chunkedEncoding: false,
+        shouldKeepAlive: true,
+        useChunkedEncodingByDefault: true,
+        sendDate: true,
+        _removedHeader: {},
+        _contentLength: null,
+        _hasBody: true,
+        _trailer: '',
+        finished: false,
+        _headerSent: false,
+        socket: [Circular],
+        connection: [Circular],
+        _header: null,
+        _headers: [Object],
+        _headerNames: [Object],
+        _onPendingData: [Function: updateOutgoingData],
+        req: [Circular],
+        locals: [Object],
+        writeHead: [Function] } },
+  _consuming: false,
+  _dumped: false,
+  originalUrl: '/device/add?deviceId=567672167&deviceName=test_3&IMEI=324324&storageTime=535324324&deviceState=1&borrowState=1',
+  _parsedUrl: 
+   Url {
+     protocol: null,
+     slashes: null,
+     auth: null,
+     host: null,
+     port: null,
+     hostname: null,
+     hash: null,
+     search: '?deviceId=567672167&deviceName=test_3&IMEI=324324&storageTime=535324324&deviceState=1&borrowState=1',
+     query: 'deviceId=567672167&deviceName=test_3&IMEI=324324&storageTime=535324324&deviceState=1&borrowState=1',
+     pathname: '/device/add',
+     path: '/device/add?deviceId=567672167&deviceName=test_3&IMEI=324324&storageTime=535324324&deviceState=1&borrowState=1',
+     href: '/device/add?deviceId=567672167&deviceName=test_3&IMEI=324324&storageTime=535324324&deviceState=1&borrowState=1' },
+  query: 
+   { deviceId: '567672167',
+     deviceName: 'test_3',
+     IMEI: '324324',
+     storageTime: '535324324',
+     deviceState: '1',
+     borrowState: '1' },
+  res: 
+   ServerResponse {
+     domain: null,
+     _events: { finish: [Object], header: [Function] },
+     _eventsCount: 2,
+     _maxListeners: undefined,
+     output: [],
+     outputEncodings: [],
+     outputCallbacks: [],
+     outputSize: 0,
+     writable: true,
+     _last: false,
+     chunkedEncoding: false,
+     shouldKeepAlive: true,
+     useChunkedEncodingByDefault: true,
+     sendDate: true,
+     _removedHeader: {},
+     _contentLength: null,
+     _hasBody: true,
+     _trailer: '',
+     finished: false,
+     _headerSent: false,
+     socket: 
+      Socket {
+        _connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 10,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        destroyed: false,
+        bytesRead: 0,
+        _bytesDispatched: 0,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Object],
+        _idlePrev: [Object],
+        _idleStart: 109012,
+        parser: [Object],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        read: [Function],
+        _consuming: true,
+        _httpMessage: [Circular] },
+     connection: 
+      Socket {
+        _connecting: false,
+        _hadError: false,
+        _handle: [Object],
+        _parent: null,
+        _host: null,
+        _readableState: [Object],
+        readable: true,
+        domain: null,
+        _events: [Object],
+        _eventsCount: 10,
+        _maxListeners: undefined,
+        _writableState: [Object],
+        writable: true,
+        allowHalfOpen: true,
+        destroyed: false,
+        bytesRead: 0,
+        _bytesDispatched: 0,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Object],
+        _server: [Object],
+        _idleTimeout: 120000,
+        _idleNext: [Object],
+        _idlePrev: [Object],
+        _idleStart: 109012,
+        parser: [Object],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        read: [Function],
+        _consuming: true,
+        _httpMessage: [Circular] },
+     _header: null,
+     _headers: { 'x-powered-by': 'Express' },
+     _headerNames: { 'x-powered-by': 'X-Powered-By' },
+     _onPendingData: [Function: updateOutgoingData],
+     req: [Circular],
+     locals: { [Function: locals] error: null, success: null, user: undefined },
+     writeHead: [Function] },
+  next: [Function: next],
+  body: {},
+  originalMethod: 'GET',
+  files: {},
+  secret: undefined,
+  cookies: { 'connect.sess': 's:j:{}.czkKbQ4dgJn0ruBF5RSsJ4IljJQGWeDBoJ+3+EUMt44' },
+  signedCookies: {},
+  session: 
+   { cookie: 
+      { path: '/',
+        _expires: null,
+        originalMaxAge: null,
+        httpOnly: true } },
+  _logging: true,
+  _route_index: 3,
+  route: 
+   Route {
+     path: '/device/add',
+     method: 'get',
+     callbacks: [ [Function] ],
+     keys: [],
+     regexp: /^\/device\/add\/?$/i,
+     params: [] },
+  params: [] }
+[2016-11-10 10:50:05.101] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-11-10 10:50:05.104] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-11-10 10:50:05.105] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-11-10 10:50:05.114] [INFO] console - D:\projectsNew\devicesManage\wmDevicesManage\static
+[2016-11-10 10:50:05.122] [INFO] server - Express server listening on port 3000
+[2016-11-10 10:50:05.123] [INFO] console - Express server listening on port 3000
+[2016-11-10 10:50:21.765] [INFO] routes.devicesList - {}
+[2016-11-10 10:50:21.816] [INFO] server - GET /device
+[2016-11-10 10:50:59.024] [INFO] routes.devicesList - {}
+[2016-11-10 10:50:59.031] [INFO] console - { deviceId: '13213213',
+  deviceName: 'test_1',
+  IMEI: '234342',
+  storageTime: '7897897908',
+  deviceState: '1',
+  borrowState: '1' }
+[2016-11-10 10:56:53.692] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-11-10 10:56:53.694] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-11-10 10:56:53.695] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-11-10 10:56:53.701] [INFO] console - D:\projectsNew\devicesManage\wmDevicesManage\static
+[2016-11-10 10:56:53.711] [INFO] server - Express server listening on port 3000
+[2016-11-10 10:56:53.711] [INFO] console - Express server listening on port 3000
+[2016-11-10 11:00:07.632] [INFO] routes.devicesList - {}
+[2016-11-10 11:00:07.654] [INFO] console - { deviceId: '43243214',
+  deviceName: 'test_2',
+  IMEI: '543543543',
+  storageTime: '23423432',
+  deviceState: '1',
+  borrowState: '1' }
+[2016-11-10 11:00:07.659] [ERROR] console - Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2016-11-10 11:00:07.680] [INFO] server - GET /device/add?deviceId=43243214&deviceName=test_2&IMEI=543543543&storageTime=23423432&deviceState=1&borrowState=1
+[2016-11-10 11:00:43.576] [INFO] routes.devicesList - {}
+[2016-11-10 11:00:43.591] [INFO] server - GET /device
+[2016-11-10 11:03:09.928] [INFO] routes.devicesList - {}
+[2016-11-10 11:03:09.929] [INFO] console - { deviceId: '123456',
+  deviceName: 'test_1',
+  IMEI: '123456',
+  storageTime: '123456',
+  deviceState: '1',
+  borrowState: '1' }
+[2016-11-10 11:03:09.933] [INFO] server - GET /device/add?deviceId=123456&deviceName=test_1&IMEI=123456&storageTime=123456&deviceState=1&borrowState=1
+[2016-11-10 11:03:14.876] [INFO] routes.devicesList - {}
+[2016-11-10 11:03:14.881] [INFO] server - GET /device
+[2016-11-10 12:55:55.954] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-11-10 12:55:55.957] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-11-10 12:55:55.958] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-11-10 12:55:55.968] [INFO] console - D:\projectsNew\devicesManage\wmDevicesManage\static
+[2016-11-10 12:55:55.976] [INFO] server - Express server listening on port 3000
+[2016-11-10 12:55:55.977] [INFO] console - Express server listening on port 3000
+[2016-11-10 12:56:30.270] [INFO] routes.devicesList - {}
+[2016-11-10 12:56:30.292] [INFO] console - { deviceId: '1001001',
+  deviceName: 'devices_01',
+  IMEI: '123456',
+  storageTime: '123456',
+  deviceState: '0',
+  borrowState: '0' }
+[2016-11-10 12:56:30.296] [ERROR] console - Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2016-11-10 12:56:30.328] [INFO] server - GET /device/add?deviceId=1001001&deviceName=devices_01&IMEI=123456&storageTime=123456&deviceState=0&borrowState=0
+[2016-11-10 12:56:36.227] [INFO] server - GET /index
+[2016-11-10 12:56:36.277] [INFO] server - GET /favicon.ico
+[2016-11-10 12:56:53.164] [INFO] routes.devicesList - {}
+[2016-11-10 12:56:53.178] [INFO] server - GET /device
+[2016-11-10 14:22:00.286] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-11-10 14:22:00.289] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-11-10 14:22:00.290] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-11-10 14:22:00.297] [INFO] console - D:\projectsNew\devicesManage\wmDevicesManage\static
+[2016-11-10 14:22:00.305] [INFO] server - Express server listening on port 3000
+[2016-11-10 14:22:00.305] [INFO] console - Express server listening on port 3000
+[2016-11-10 15:41:49.444] [INFO] routes.devicesList - {}
+[2016-11-10 15:41:49.497] [INFO] server - GET /device
+[2016-11-10 15:42:33.309] [INFO] routes.devicesList - {}
+[2016-11-10 15:42:33.313] [INFO] console - { deviceId: '10002',
+  deviceName: 'devices_02',
+  IMEI: '56799080',
+  storageTime: '7890809',
+  deviceState: '0',
+  borrowState: '1' }
+[2016-11-10 15:42:33.319] [ERROR] console - Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2016-11-10 15:42:33.336] [INFO] server - GET /device/add?deviceId=10002&deviceName=devices_02&IMEI=56799080&storageTime=7890809&deviceState=0&borrowState=1
+[2016-11-10 15:42:34.595] [INFO] routes.devicesList - {}
+[2016-11-10 15:42:34.599] [INFO] server - GET /device
+[2016-11-10 15:43:15.677] [INFO] routes.devicesList - {}
+[2016-11-10 15:43:15.683] [INFO] server - GET /device
+[2016-11-10 15:43:48.819] [INFO] routes.devicesList - {}
+[2016-11-10 15:43:48.821] [INFO] console - { deviceId: '10003',
+  deviceName: 'devices03',
+  IMEI: '56769790',
+  storageTime: '689790',
+  deviceState: '0',
+  borrowState: '0' }
+[2016-11-10 15:43:48.826] [INFO] server - GET /device/add?deviceId=10003&deviceName=devices03&IMEI=56769790&storageTime=689790&deviceState=0&borrowState=0
+[2016-11-10 15:43:51.511] [INFO] routes.devicesList - {}
+[2016-11-10 15:43:51.516] [INFO] server - GET /device
+[2016-11-10 17:14:55.612] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-11-10 17:14:55.614] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-11-10 17:14:55.615] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-11-10 17:14:55.622] [INFO] console - D:\projectsNew\devicesManage\wmDevicesManage\static
+[2016-11-10 17:14:55.631] [INFO] server - Express server listening on port 3000
+[2016-11-10 17:14:55.632] [INFO] console - Express server listening on port 3000
+[2016-11-10 17:15:01.384] [INFO] routes.devicesList - {}
+[2016-11-10 17:15:01.449] [INFO] server - GET /device
+[2016-11-10 17:15:02.932] [INFO] routes.devicesList - {}
+[2016-11-10 17:15:02.939] [INFO] server - GET /device
+[2016-11-10 17:15:14.557] [INFO] routes.devicesList - undefined
+[2016-11-10 17:15:14.558] [INFO] console - undefined
+[2016-11-10 17:15:51.169] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-11-10 17:15:51.172] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-11-10 17:15:51.173] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-11-10 17:15:51.182] [INFO] console - D:\projectsNew\devicesManage\wmDevicesManage\static
+[2016-11-10 17:15:51.193] [INFO] server - Express server listening on port 3000
+[2016-11-10 17:15:51.193] [INFO] console - Express server listening on port 3000
+[2016-11-10 17:15:55.943] [INFO] routes.devicesList - {}
+[2016-11-10 17:15:55.995] [INFO] server - GET /device
+[2016-11-10 17:16:00.523] [INFO] routes.devicesList - undefined
+[2016-11-10 17:16:00.525] [INFO] console - 10003
+[2016-11-10 17:22:51.224] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-11-10 17:22:51.226] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-11-10 17:22:51.228] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-11-10 17:22:51.235] [INFO] console - D:\projectsNew\devicesManage\wmDevicesManage\static
+[2016-11-10 17:22:51.242] [INFO] server - Express server listening on port 3000
+[2016-11-10 17:22:51.243] [INFO] console - Express server listening on port 3000
+[2016-11-10 17:22:57.041] [INFO] routes.devicesList - {}
+[2016-11-10 17:22:57.123] [INFO] server - GET /device
+[2016-11-10 17:22:59.078] [INFO] routes.devicesList - {}
+[2016-11-10 17:22:59.083] [INFO] server - GET /device
+[2016-11-10 17:23:02.195] [INFO] routes.devicesList - 10003
+[2016-11-10 17:23:02.197] [INFO] console - 10003
+[2016-11-10 17:23:02.199] [INFO] server - GET /device/show?deviceId=10003
+[2016-11-10 17:23:32.638] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-11-10 17:23:32.641] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-11-10 17:23:32.643] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-11-10 17:23:32.653] [INFO] console - D:\projectsNew\devicesManage\wmDevicesManage\static
+[2016-11-10 17:23:32.661] [INFO] server - Express server listening on port 3000
+[2016-11-10 17:23:32.662] [INFO] console - Express server listening on port 3000
+[2016-11-10 17:23:39.466] [INFO] routes.devicesList - {}
+[2016-11-10 17:23:39.523] [INFO] server - GET /device
+[2016-11-10 17:23:41.921] [INFO] routes.devicesList - {}
+[2016-11-10 17:23:41.929] [INFO] server - GET /device
+[2016-11-10 17:23:44.146] [INFO] routes.devicesList - 10002
+[2016-11-10 17:23:44.146] [INFO] console - 10002
+[2016-11-10 17:23:44.165] [INFO] console - { _id: 582424e98a40a540bced302b,
+  deviceId: '10002',
+  deviceName: 'devices_02',
+  IMEI: '56799080',
+  deviceState: 0,
+  borrowState: 1,
+  __v: 0,
+  storageTime: Thu Jan 01 1970 10:11:30 GMT+0800 (中国标准时间) }
+[2016-11-10 17:23:44.169] [INFO] server - GET /device/show?deviceId=10002
+[2016-11-10 17:28:49.086] [INFO] routes.devicesList - {}
+[2016-11-10 17:28:49.090] [INFO] server - GET /device
+[2016-11-10 17:29:07.850] [INFO] routes.devicesList - {}
+[2016-11-10 17:29:07.854] [INFO] server - GET /device
+[2016-11-10 17:30:10.255] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-11-10 17:30:10.258] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-11-10 17:30:10.260] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-11-10 17:30:10.267] [INFO] console - D:\projectsNew\devicesManage\wmDevicesManage\static
+[2016-11-10 17:30:10.277] [INFO] server - Express server listening on port 3000
+[2016-11-10 17:30:10.277] [INFO] console - Express server listening on port 3000
+[2016-11-10 17:30:15.786] [INFO] routes.devicesList - {}
+[2016-11-10 17:30:15.848] [INFO] server - GET /device
+[2016-11-10 17:30:17.600] [INFO] routes.devicesList - {}
+[2016-11-10 17:30:17.609] [INFO] server - GET /device
+[2016-11-10 17:30:44.878] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-11-10 17:30:44.881] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-11-10 17:30:44.882] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-11-10 17:30:44.888] [INFO] console - D:\projectsNew\devicesManage\wmDevicesManage\static
+[2016-11-10 17:30:44.896] [INFO] server - Express server listening on port 3000
+[2016-11-10 17:30:44.897] [INFO] console - Express server listening on port 3000
+[2016-11-10 17:30:48.709] [INFO] routes.devicesList - {}
+[2016-11-10 17:30:48.762] [INFO] server - GET /device
+[2016-11-10 17:33:51.739] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-11-10 17:33:51.742] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-11-10 17:33:51.743] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-11-10 17:33:51.750] [INFO] console - D:\projectsNew\devicesManage\wmDevicesManage\static
+[2016-11-10 17:33:51.759] [INFO] server - Express server listening on port 3000
+[2016-11-10 17:33:51.760] [INFO] console - Express server listening on port 3000
+[2016-11-10 17:33:57.148] [INFO] routes.devicesList - {}
+[2016-11-10 17:33:57.206] [INFO] server - GET /device
+[2016-11-10 17:33:59.921] [INFO] routes.devicesList - 10003
+[2016-11-10 17:33:59.922] [INFO] console - 10003
+[2016-11-10 17:33:59.928] [INFO] console - { _id: 582425348a40a540bced302c,
+  deviceId: '10003',
+  deviceName: 'devices03',
+  IMEI: '56769790',
+  deviceState: 0,
+  borrowState: 0,
+  __v: 0,
+  storageTime: Thu Jan 01 1970 08:11:29 GMT+0800 (中国标准时间) }
+[2016-11-10 17:33:59.935] [INFO] server - GET /device/show?deviceId=10003
+[2016-11-10 17:34:31.001] [INFO] routes.devicesList - 10003
+[2016-11-10 17:34:31.002] [INFO] console - 10003
+[2016-11-10 17:34:31.006] [INFO] console - { _id: 582425348a40a540bced302c,
+  deviceId: '10003',
+  deviceName: 'devices03',
+  IMEI: '56769790',
+  deviceState: 0,
+  borrowState: 0,
+  __v: 0,
+  storageTime: Thu Jan 01 1970 08:11:29 GMT+0800 (中国标准时间) }
+[2016-11-10 17:34:31.008] [INFO] server - GET /device/show?deviceId=10003
+[2016-11-10 17:35:53.040] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-11-10 17:35:53.043] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-11-10 17:35:53.045] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-11-10 17:35:53.053] [INFO] console - D:\projectsNew\devicesManage\wmDevicesManage\static
+[2016-11-10 17:35:53.063] [INFO] server - Express server listening on port 3000
+[2016-11-10 17:35:53.069] [INFO] console - Express server listening on port 3000
+[2016-11-10 17:36:00.039] [INFO] routes.devicesList - {}
+[2016-11-10 17:36:00.085] [INFO] server - GET /device
+[2016-11-10 17:36:04.770] [INFO] routes.devicesList - {}
+[2016-11-10 17:36:04.781] [INFO] server - GET /device
+[2016-11-10 17:36:08.024] [INFO] routes.devicesList - 10003
+[2016-11-10 17:36:08.025] [INFO] console - 10003
+[2016-11-10 17:36:08.031] [INFO] console - { _id: 582425348a40a540bced302c,
+  deviceId: '10003',
+  deviceName: 'devices03',
+  IMEI: '56769790',
+  deviceState: 0,
+  borrowState: 0,
+  __v: 0,
+  storageTime: Thu Jan 01 1970 08:11:29 GMT+0800 (中国标准时间) }
+[2016-11-10 17:36:08.035] [INFO] server - GET /device/show?deviceId=10003
+[2016-11-10 17:37:38.831] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-11-10 17:37:38.834] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-11-10 17:37:38.835] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-11-10 17:37:38.843] [INFO] console - D:\projectsNew\devicesManage\wmDevicesManage\static
+[2016-11-10 17:37:38.852] [INFO] server - Express server listening on port 3000
+[2016-11-10 17:37:38.852] [INFO] console - Express server listening on port 3000
+[2016-11-10 17:37:47.700] [INFO] routes.devicesList - 10003
+[2016-11-10 17:37:47.701] [INFO] console - 10003
+[2016-11-10 17:37:47.716] [INFO] console - { _id: 582425348a40a540bced302c,
+  deviceId: '10003',
+  deviceName: 'devices03',
+  IMEI: '56769790',
+  deviceState: 0,
+  borrowState: 0,
+  __v: 0,
+  storageTime: Thu Jan 01 1970 08:11:29 GMT+0800 (中国标准时间) }
+[2016-11-10 17:37:47.754] [INFO] server - GET /device/show?deviceId=10003
+[2016-11-10 17:45:30.585] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-11-10 17:45:30.588] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-11-10 17:45:30.589] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-11-10 17:45:30.599] [INFO] console - D:\projectsNew\devicesManage\wmDevicesManage\static
+[2016-11-10 17:45:30.609] [INFO] server - Express server listening on port 3000
+[2016-11-10 17:45:30.610] [INFO] console - Express server listening on port 3000
+[2016-11-10 17:45:35.641] [INFO] routes.devicesList - 10003
+[2016-11-10 17:45:35.641] [INFO] console - 10003
+[2016-11-10 17:45:35.666] [INFO] console - { _id: 582425348a40a540bced302c,
+  deviceId: '10003',
+  deviceName: 'devices03',
+  IMEI: '56769790',
+  deviceState: 0,
+  borrowState: 0,
+  __v: 0,
+  storageTime: Thu Jan 01 1970 08:11:29 GMT+0800 (中国标准时间) }
+[2016-11-10 17:45:35.703] [INFO] server - GET /device/show?deviceId=10003
+[2016-11-10 17:46:48.430] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-11-10 17:46:48.433] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-11-10 17:46:48.434] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-11-10 17:46:48.443] [INFO] console - D:\projectsNew\devicesManage\wmDevicesManage\static
+[2016-11-10 17:46:48.451] [INFO] server - Express server listening on port 3000
+[2016-11-10 17:46:48.452] [INFO] console - Express server listening on port 3000
+[2016-11-10 17:46:55.561] [INFO] routes.devicesList - 10003
+[2016-11-10 17:46:55.562] [INFO] console - 10003
+[2016-11-10 17:46:55.578] [INFO] console - { _id: 582425348a40a540bced302c,
+  deviceId: '10003',
+  deviceName: 'devices03',
+  IMEI: '56769790',
+  deviceState: 0,
+  borrowState: 0,
+  __v: 0,
+  storageTime: Thu Jan 01 1970 08:11:29 GMT+0800 (中国标准时间) }
+[2016-11-10 17:46:55.613] [INFO] server - GET /device/show?deviceId=10003
+[2016-11-10 17:47:05.494] [INFO] routes.devicesList - {}
+[2016-11-10 17:47:05.506] [INFO] server - GET /device
+[2016-11-10 17:57:04.035] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-11-10 17:57:04.038] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-11-10 17:57:04.039] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-11-10 17:57:04.046] [INFO] console - D:\projectsNew\devicesManage\wmDevicesManage\static
+[2016-11-10 17:57:04.055] [INFO] server - Express server listening on port 3000
+[2016-11-10 17:57:04.055] [INFO] console - Express server listening on port 3000
+[2016-11-10 17:57:08.960] [INFO] routes.devicesList - {}
+[2016-11-10 17:57:09.025] [INFO] server - GET /device
+[2016-11-10 17:57:10.928] [INFO] routes.devicesList - 10003
+[2016-11-10 17:57:10.928] [INFO] console - 10003
+[2016-11-10 17:57:10.933] [INFO] console - { _id: 582425348a40a540bced302c,
+  deviceId: '10003',
+  deviceName: 'devices03',
+  IMEI: '56769790',
+  deviceState: 0,
+  borrowState: 0,
+  __v: 0,
+  storageTime: Thu Jan 01 1970 08:11:29 GMT+0800 (中国标准时间) }
+[2016-11-10 17:57:53.520] [INFO] routes.devicesList - 10003
+[2016-11-10 17:57:53.522] [INFO] console - 10003
+[2016-11-10 17:57:53.526] [INFO] console - { _id: 582425348a40a540bced302c,
+  deviceId: '10003',
+  deviceName: 'devices03',
+  IMEI: '56769790',
+  deviceState: 0,
+  borrowState: 0,
+  __v: 0,
+  storageTime: Thu Jan 01 1970 08:11:29 GMT+0800 (中国标准时间) }
+[2016-11-10 17:58:11.996] [INFO] routes.devicesList - 10003
+[2016-11-10 17:58:11.998] [INFO] console - 10003
+[2016-11-10 17:58:12.001] [INFO] console - { _id: 582425348a40a540bced302c,
+  deviceId: '10003',
+  deviceName: 'devices03',
+  IMEI: '56769790',
+  deviceState: 0,
+  borrowState: 0,
+  __v: 0,
+  storageTime: Thu Jan 01 1970 08:11:29 GMT+0800 (中国标准时间) }
+[2016-11-10 17:58:41.582] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-11-10 17:58:41.585] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-11-10 17:58:41.586] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-11-10 17:58:41.595] [INFO] console - D:\projectsNew\devicesManage\wmDevicesManage\static
+[2016-11-10 17:58:41.603] [INFO] server - Express server listening on port 3000
+[2016-11-10 17:58:41.604] [INFO] console - Express server listening on port 3000
+[2016-11-10 17:58:47.421] [INFO] routes.devicesList - 10003
+[2016-11-10 17:58:47.423] [INFO] console - 10003
+[2016-11-10 17:58:47.441] [INFO] console - { _id: 582425348a40a540bced302c,
+  deviceId: '10003',
+  deviceName: 'devices03',
+  IMEI: '56769790',
+  deviceState: 0,
+  borrowState: 0,
+  __v: 0,
+  storageTime: Thu Jan 01 1970 08:11:29 GMT+0800 (中国标准时间) }
+[2016-11-10 17:58:47.473] [INFO] server - GET /device/show?deviceId=10003
+[2016-11-10 17:58:53.817] [INFO] routes.devicesList - {}
+[2016-11-10 17:58:53.825] [INFO] console - { deviceId: '10003',
+  deviceName: 'devices03',
+  IMEI: '56769790',
+  storageTime: '1970-01-01T00:11:29.790Z',
+  deviceState: '0',
+  borrowState: '0' }
+[2016-11-10 17:58:53.830] [ERROR] console - Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2016-11-10 17:58:53.848] [INFO] server - GET /device/add?deviceId=10003&deviceName=devices03&IMEI=56769790&storageTime=1970-01-01T00%3A11%3A29.790Z&deviceState=0&borrowState=0
+[2016-11-10 17:58:54.030] [INFO] routes.devicesList - {}
+[2016-11-10 17:58:54.038] [INFO] server - GET /device
+[2016-11-10 17:59:13.655] [INFO] routes.devicesList - {}
+[2016-11-10 17:59:13.672] [INFO] server - GET /device
+[2016-11-10 18:00:25.184] [INFO] routes.devicesList - {}
+[2016-11-10 18:00:25.189] [INFO] server - GET /device
+[2016-11-10 18:15:18.914] [INFO] routes.devicesList - {}
+[2016-11-10 18:15:18.921] [INFO] server - GET /device
+[2016-11-10 18:15:20.321] [INFO] routes.devicesList - {}
+[2016-11-10 18:15:20.324] [INFO] server - GET /device
+[2016-11-10 18:16:15.861] [INFO] routes.devicesList - {}
+[2016-11-10 18:16:15.863] [INFO] console - { deviceId: '1001003',
+  deviceName: 'devices_test',
+  IMEI: '4658789',
+  storageTime: '78989890',
+  deviceState: '0',
+  borrowState: '0' }
+[2016-11-10 18:16:15.872] [INFO] server - GET /device/add?deviceId=1001003&deviceName=devices_test&IMEI=4658789&storageTime=78989890&deviceState=0&borrowState=0
+[2016-11-10 18:16:16.021] [INFO] routes.devicesList - {}
+[2016-11-10 18:16:16.028] [INFO] server - GET /device
+[2016-11-10 18:16:25.533] [INFO] routes.devicesList - 1001003
+[2016-11-10 18:16:25.534] [INFO] console - 1001003
+[2016-11-10 18:16:25.537] [INFO] console - { _id: 582448ef582253441c662670,
+  deviceId: '1001003',
+  deviceName: 'devices_test',
+  IMEI: '4658789',
+  deviceState: 0,
+  borrowState: 0,
+  __v: 0,
+  storageTime: Fri Jan 02 1970 05:56:29 GMT+0800 (中国标准时间) }
+[2016-11-10 18:16:25.539] [INFO] server - GET /device/show?deviceId=1001003
+[2016-11-10 18:16:37.684] [INFO] routes.devicesList - {}
+[2016-11-10 18:16:37.687] [INFO] server - GET /device
+[2016-11-10 18:16:54.134] [INFO] routes.devicesList - {}
+[2016-11-10 18:16:54.143] [INFO] server - GET /device
+[2016-11-10 19:06:49.818] [INFO] routes.devicesRecord - {}
+[2016-11-10 19:06:49.824] [INFO] console - [ { _id: 57fe09b27d1dd4215848c45d,
+    deviceId: '1001001',
+    IMEI: '1378989',
+    borrowedPeople: 'zhangsan',
+    entryPeople: 'lisi',
+    borrowedTime: '123890090',
+    returnTime: '1234449' },
+  { _id: 5804c96891697b0038a003db,
+    deviceId: '1001002',
+    IMEI: '1287900',
+    borrowedPeople: 'lisi',
+    entryPeople: 'lisi',
+    borrowedTime: '123890090',
+    returnTime: '1234449' } ]
+[2016-11-10 19:06:49.827] [INFO] server - GET /devrecord
+[2016-11-10 19:06:51.330] [INFO] routes.devicesList - {}
+[2016-11-10 19:06:51.334] [INFO] server - GET /device

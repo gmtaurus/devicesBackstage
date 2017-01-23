@@ -1,0 +1,153 @@
+[2016-11-09 16:44:45.353] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-11-09 16:44:45.355] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-11-09 16:44:45.356] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-11-09 16:44:45.366] [INFO] console - D:\projectsNew\devicesManage\wmDevicesManage\static
+[2016-11-09 16:44:45.373] [INFO] server - Express server listening on port 3000
+[2016-11-09 16:44:45.374] [INFO] console - Express server listening on port 3000
+[2016-11-09 16:45:18.309] [INFO] routes.devicesList - {}
+[2016-11-09 16:45:18.353] [INFO] server - GET /device
+[2016-11-09 16:48:12.759] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-11-09 16:48:12.763] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-11-09 16:48:12.764] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-11-09 16:48:12.772] [INFO] console - D:\projectsNew\devicesManage\wmDevicesManage\static
+[2016-11-09 16:48:12.779] [INFO] server - Express server listening on port 3000
+[2016-11-09 16:48:12.780] [INFO] console - Express server listening on port 3000
+[2016-11-09 16:48:21.465] [INFO] routes.devicesList - {}
+[2016-11-09 16:48:21.511] [INFO] server - GET /device
+[2016-11-09 16:53:37.574] [INFO] routes.devicesList - {}
+[2016-11-09 16:53:37.581] [INFO] server - GET /device
+[2016-11-09 16:55:50.267] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-11-09 16:55:50.270] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-11-09 16:55:50.271] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-11-09 16:55:50.279] [INFO] console - D:\projectsNew\devicesManage\wmDevicesManage\static
+[2016-11-09 16:55:50.287] [INFO] server - Express server listening on port 3000
+[2016-11-09 16:55:50.287] [INFO] console - Express server listening on port 3000
+[2016-11-09 16:55:57.017] [INFO] routes.devicesList - {}
+[2016-11-09 16:55:57.080] [INFO] server - GET /device
+[2016-11-09 16:55:58.348] [INFO] routes.devicesList - {}
+[2016-11-09 16:55:58.356] [INFO] server - GET /device
+[2016-11-09 16:56:00.232] [INFO] routes.devicesList - {}
+[2016-11-09 16:56:00.235] [INFO] server - GET /device
+[2016-11-09 16:58:20.114] [INFO] routes.devicesRecord - {}
+[2016-11-09 16:58:20.117] [INFO] console - [ { _id: 57fe09b27d1dd4215848c45d,
+    deviceId: '1001001',
+    IMEI: '1378989',
+    borrowedPeople: 'zhangsan',
+    entryPeople: 'lisi',
+    borrowedTime: '123890090',
+    returnTime: '1234449',
+    create_date: Wed Nov 09 2016 16:58:20 GMT+0800 (中国标准时间) },
+  { _id: 5804c96891697b0038a003db,
+    deviceId: '1001002',
+    IMEI: '1287900',
+    borrowedPeople: 'lisi',
+    entryPeople: 'lisi',
+    borrowedTime: '123890090',
+    returnTime: '1234449',
+    create_date: Wed Nov 09 2016 16:58:20 GMT+0800 (中国标准时间) } ]
+[2016-11-09 16:58:20.124] [INFO] server - GET /devrecord
+[2016-11-09 16:58:22.306] [INFO] routes.devicesList - {}
+[2016-11-09 16:58:22.310] [INFO] server - GET /device
+[2016-11-09 16:59:24.448] [INFO] routes.devicesList - {}
+[2016-11-09 16:59:24.452] [INFO] server - GET /device
+[2016-11-09 16:59:25.680] [INFO] routes.devicesRecord - {}
+[2016-11-09 16:59:25.685] [INFO] console - [ { _id: 57fe09b27d1dd4215848c45d,
+    deviceId: '1001001',
+    IMEI: '1378989',
+    borrowedPeople: 'zhangsan',
+    entryPeople: 'lisi',
+    borrowedTime: '123890090',
+    returnTime: '1234449',
+    create_date: Wed Nov 09 2016 16:59:25 GMT+0800 (中国标准时间) },
+  { _id: 5804c96891697b0038a003db,
+    deviceId: '1001002',
+    IMEI: '1287900',
+    borrowedPeople: 'lisi',
+    entryPeople: 'lisi',
+    borrowedTime: '123890090',
+    returnTime: '1234449',
+    create_date: Wed Nov 09 2016 16:59:25 GMT+0800 (中国标准时间) } ]
+[2016-11-09 16:59:25.690] [INFO] server - GET /devrecord
+[2016-11-09 17:36:34.695] [INFO] routes.devicesList - {}
+[2016-11-09 17:36:34.701] [INFO] server - GET /device
+[2016-11-09 17:45:04.110] [INFO] routes.devicesList - {}
+[2016-11-09 17:45:04.115] [ERROR] console - Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2016-11-09 17:45:04.144] [INFO] server - GET /device/add
+[2016-11-09 17:45:29.504] [INFO] routes.devicesList - {}
+[2016-11-09 17:45:29.508] [INFO] server - GET /device
+[2016-11-09 18:47:16.636] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-11-09 18:47:16.639] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-11-09 18:47:16.640] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-11-09 18:47:16.648] [INFO] console - D:\projectsNew\devicesManage\wmDevicesManage\static
+[2016-11-09 18:47:16.655] [INFO] server - Express server listening on port 3000
+[2016-11-09 18:47:16.655] [INFO] console - Express server listening on port 3000
+[2016-11-09 18:48:33.510] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-11-09 18:48:33.513] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-11-09 18:48:33.515] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-11-09 18:48:33.523] [INFO] console - D:\projectsNew\devicesManage\wmDevicesManage\static
+[2016-11-09 18:48:33.531] [INFO] server - Express server listening on port 3000
+[2016-11-09 18:48:33.532] [INFO] console - Express server listening on port 3000
+[2016-11-09 18:48:39.324] [INFO] routes.devicesList - {}
+[2016-11-09 18:48:39.384] [INFO] server - GET /device
+[2016-11-09 18:51:03.150] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-11-09 18:51:03.153] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-11-09 18:51:03.154] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-11-09 18:51:03.168] [INFO] console - D:\projectsNew\devicesManage\wmDevicesManage\static
+[2016-11-09 18:51:03.182] [INFO] server - Express server listening on port 3000
+[2016-11-09 18:51:03.182] [INFO] console - Express server listening on port 3000
+[2016-11-09 18:51:05.387] [INFO] routes.devicesList - {}
+[2016-11-09 18:51:05.439] [INFO] server - GET /device
+[2016-11-09 18:51:26.031] [INFO] routes.devicesList - {}
+[2016-11-09 18:51:26.036] [ERROR] console - Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2016-11-09 18:52:45.236] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-11-09 18:52:45.239] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-11-09 18:52:45.241] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-11-09 18:52:45.248] [INFO] console - D:\projectsNew\devicesManage\wmDevicesManage\static
+[2016-11-09 18:52:45.255] [INFO] server - Express server listening on port 3000
+[2016-11-09 18:52:45.256] [INFO] console - Express server listening on port 3000
+[2016-11-09 18:53:00.480] [INFO] routes.devicesList - {}
+[2016-11-09 18:53:00.508] [ERROR] console - Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[2016-11-09 18:53:00.527] [INFO] server - GET /device/add
+[2016-11-09 18:53:11.984] [INFO] routes.devicesList - {}
+[2016-11-09 18:53:12.006] [INFO] server - GET /device
+[2016-11-09 19:50:32.612] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-11-09 19:50:32.615] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-11-09 19:50:32.616] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-11-09 19:50:32.624] [INFO] console - D:\projectsNew\devicesManage\wmDevicesManage\static
+[2016-11-09 19:50:32.632] [INFO] server - Express server listening on port 3000
+[2016-11-09 19:50:32.633] [INFO] console - Express server listening on port 3000
+[2016-11-09 19:50:35.097] [INFO] routes.devicesList - {}
+[2016-11-09 19:50:35.150] [INFO] server - GET /device
+[2016-11-09 19:54:30.055] [INFO] routes.devicesList - {}
+[2016-11-09 19:54:30.061] [INFO] server - GET /device
+[2016-11-09 19:54:40.752] [INFO] routes.devicesRecord - {}
+[2016-11-09 19:54:40.756] [INFO] console - [ { _id: 57fe09b27d1dd4215848c45d,
+    deviceId: '1001001',
+    IMEI: '1378989',
+    borrowedPeople: 'zhangsan',
+    entryPeople: 'lisi',
+    borrowedTime: '123890090',
+    returnTime: '1234449',
+    create_date: Wed Nov 09 2016 19:54:40 GMT+0800 (中国标准时间) },
+  { _id: 5804c96891697b0038a003db,
+    deviceId: '1001002',
+    IMEI: '1287900',
+    borrowedPeople: 'lisi',
+    entryPeople: 'lisi',
+    borrowedTime: '123890090',
+    returnTime: '1234449',
+    create_date: Wed Nov 09 2016 19:54:40 GMT+0800 (中国标准时间) } ]
+[2016-11-09 19:54:40.761] [INFO] server - GET /devrecord
+[2016-11-09 19:54:55.132] [INFO] routes.devicesList - {}
+[2016-11-09 19:54:55.140] [INFO] server - GET /device
+[2016-11-09 19:57:17.116] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-11-09 19:57:17.119] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-11-09 19:57:17.120] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-11-09 19:57:17.129] [INFO] console - D:\projectsNew\devicesManage\wmDevicesManage\static
+[2016-11-09 19:57:17.137] [INFO] server - Express server listening on port 3000
+[2016-11-09 19:57:17.138] [INFO] console - Express server listening on port 3000
+[2016-11-09 19:57:34.323] [INFO] routes.devicesList - {}
+[2016-11-09 19:57:34.374] [INFO] server - GET /device
+[2016-11-09 19:57:49.745] [INFO] routes.devicesList - {}
+[2016-11-09 19:57:49.748] [INFO] console - { _id: 58230f3d5f59cd2f8c5dcaca,
+  create_date: Wed Nov 09 2016 19:57:49 GMT+0800 (中国标准时间) }

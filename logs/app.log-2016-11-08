@@ -1,0 +1,10 @@
+[2016-11-08 20:39:29.100] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-11-08 20:39:29.103] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-11-08 20:39:29.105] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-11-08 20:39:29.114] [INFO] console - D:\projectsNew\devicesManage\wmDevicesManage\static
+[2016-11-08 20:39:29.124] [INFO] server - Express server listening on port 3000
+[2016-11-08 20:39:29.124] [INFO] console - Express server listening on port 3000
+[2016-11-08 20:42:08.542] [INFO] routes.devicesList - {}
+[2016-11-08 20:42:08.589] [INFO] server - GET /device
+[2016-11-08 20:42:41.030] [INFO] routes.devicesList - {}
+[2016-11-08 20:42:41.038] [INFO] server - GET /device

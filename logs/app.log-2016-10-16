@@ -1,0 +1,249 @@
+[2016-10-16 21:02:35.205] [INFO] server - Express server listening on port undefined
+[2016-10-16 21:02:35.209] [INFO] console - Express server listening on port undefined
+[2016-10-16 21:02:56.279] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-10-16 21:02:56.282] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-10-16 21:02:56.283] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-10-16 21:02:56.313] [INFO] server - Express server listening on port 3000
+[2016-10-16 21:02:56.313] [INFO] console - Express server listening on port 3000
+[2016-10-16 21:03:14.290] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-10-16 21:03:14.293] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-10-16 21:03:14.295] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-10-16 21:03:14.308] [INFO] server - Express server listening on port 3000
+[2016-10-16 21:03:14.310] [INFO] console - Express server listening on port 3000
+[2016-10-16 21:03:21.628] [INFO] server - GET /devices
+[2016-10-16 21:03:21.686] [INFO] server - GET /favicon.ico
+[2016-10-16 21:03:24.039] [ERROR] console - Error: Failed to lookup view "test" in views directory "D:\projectsNew\devicesManage\devices_001\conf\views"
+    at Function.app.render (D:\projectsNew\devicesManage\devices_001\node_modules\express\lib\application.js:493:17)
+    at ServerResponse.res.render (D:\projectsNew\devicesManage\devices_001\node_modules\express\lib\response.js:798:7)
+    at D:\projectsNew\devicesManage\devices_001\routes\router.js:59:13
+    at callbacks (D:\projectsNew\devicesManage\devices_001\node_modules\express\lib\router\index.js:164:37)
+    at param (D:\projectsNew\devicesManage\devices_001\node_modules\express\lib\router\index.js:138:11)
+    at pass (D:\projectsNew\devicesManage\devices_001\node_modules\express\lib\router\index.js:145:5)
+    at Router._dispatch (D:\projectsNew\devicesManage\devices_001\node_modules\express\lib\router\index.js:173:5)
+    at Object.router (D:\projectsNew\devicesManage\devices_001\node_modules\express\lib\router\index.js:33:10)
+    at next (D:\projectsNew\devicesManage\devices_001\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at Object.handle (D:\projectsNew\devicesManage\devices_001\conf\server.js:54:9)
+    at next (D:\projectsNew\devicesManage\devices_001\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at Object.handle (D:\projectsNew\devicesManage\devices_001\node_modules\log4js\lib\connect-logger.js:103:5)
+    at next (D:\projectsNew\devicesManage\devices_001\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at Object.cookieSession [as handle] (D:\projectsNew\devicesManage\devices_001\node_modules\express\node_modules\connect\lib\middleware\cookieSession.js:119:5)
+    at next (D:\projectsNew\devicesManage\devices_001\node_modules\express\node_modules\connect\lib\proto.js:193:15)
+    at Object.cookieParser [as handle] (D:\projectsNew\devicesManage\devices_001\node_modules\express\node_modules\connect\node_modules\cookie-parser\index.js:46:5)
+[2016-10-16 21:03:24.050] [INFO] server - GET /test
+[2016-10-16 21:04:03.418] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-10-16 21:04:03.420] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-10-16 21:04:03.421] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-10-16 21:04:03.436] [INFO] server - Express server listening on port 3000
+[2016-10-16 21:04:03.437] [INFO] console - Express server listening on port 3000
+[2016-10-16 21:04:08.925] [INFO] server - GET /test
+[2016-10-16 22:21:21.196] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-10-16 22:21:21.199] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-10-16 22:21:21.201] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-10-16 22:21:21.219] [INFO] server - Express server listening on port 3000
+[2016-10-16 22:21:21.220] [INFO] console - Express server listening on port 3000
+[2016-10-16 22:21:28.383] [INFO] server - GET /
+[2016-10-16 22:21:32.628] [INFO] server - GET /devices
+[2016-10-16 22:21:37.354] [INFO] routes.devicesList - {}
+[2016-10-16 22:21:37.408] [INFO] server - GET /device/list
+[2016-10-16 22:24:12.485] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-10-16 22:24:12.488] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-10-16 22:24:12.489] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-10-16 22:24:12.505] [INFO] server - Express server listening on port 3000
+[2016-10-16 22:24:12.506] [INFO] console - Express server listening on port 3000
+[2016-10-16 22:24:16.984] [INFO] routes.devicesList - {}
+[2016-10-16 22:24:17.030] [INFO] server - GET /device/list
+[2016-10-16 22:26:25.555] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-10-16 22:26:25.558] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-10-16 22:26:25.559] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-10-16 22:26:25.573] [INFO] server - Express server listening on port 3000
+[2016-10-16 22:26:25.573] [INFO] console - Express server listening on port 3000
+[2016-10-16 22:26:43.835] [INFO] server - GET /doctor/show?1001001
+[2016-10-16 22:27:29.092] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-10-16 22:27:29.095] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-10-16 22:27:29.097] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-10-16 22:27:29.117] [INFO] server - Express server listening on port 3000
+[2016-10-16 22:27:29.118] [INFO] console - Express server listening on port 3000
+[2016-10-16 22:27:38.032] [INFO] server - GET /doctor/show?id=1001001
+[2016-10-16 22:28:53.763] [INFO] server - GET /doctor/show
+[2016-10-16 22:29:11.276] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-10-16 22:29:11.279] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-10-16 22:29:11.280] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-10-16 22:29:11.293] [INFO] server - Express server listening on port 3000
+[2016-10-16 22:29:11.294] [INFO] console - Express server listening on port 3000
+[2016-10-16 22:29:14.366] [INFO] server - GET /doctor/show
+[2016-10-16 22:29:17.783] [INFO] routes.devicesList - {}
+[2016-10-16 22:29:17.847] [INFO] server - GET /device/show
+[2016-10-16 22:33:09.581] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-10-16 22:33:09.584] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-10-16 22:33:09.585] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-10-16 22:33:09.600] [INFO] server - Express server listening on port 3000
+[2016-10-16 22:33:09.601] [INFO] console - Express server listening on port 3000
+[2016-10-16 22:43:40.501] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-10-16 22:43:40.504] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-10-16 22:43:40.505] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-10-16 22:43:40.519] [INFO] server - Express server listening on port 3000
+[2016-10-16 22:43:40.520] [INFO] console - Express server listening on port 3000
+[2016-10-16 22:43:50.275] [INFO] routes.devicesList - {}
+[2016-10-16 22:43:50.315] [INFO] server - GET /device/show
+[2016-10-16 22:43:57.853] [INFO] routes.devicesList - 1001001
+[2016-10-16 22:43:57.867] [INFO] console - null
+[2016-10-16 22:44:19.012] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-10-16 22:44:19.016] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-10-16 22:44:19.017] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-10-16 22:44:19.029] [INFO] server - Express server listening on port 3000
+[2016-10-16 22:44:19.030] [INFO] console - Express server listening on port 3000
+[2016-10-16 22:44:33.511] [INFO] routes.devicesList - {}
+[2016-10-16 22:44:33.579] [INFO] server - GET /device/show?id=1001001
+[2016-10-16 22:46:48.174] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-10-16 22:46:48.178] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-10-16 22:46:48.179] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-10-16 22:46:48.197] [INFO] server - Express server listening on port 27017
+[2016-10-16 22:46:48.197] [INFO] console - Express server listening on port 27017
+[2016-10-16 22:47:41.019] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-10-16 22:47:41.022] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-10-16 22:47:41.023] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-10-16 22:47:41.036] [INFO] server - Express server listening on port 3000
+[2016-10-16 22:47:41.037] [INFO] console - Express server listening on port 3000
+[2016-10-16 22:51:05.876] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-10-16 22:51:05.879] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-10-16 22:51:05.880] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-10-16 22:51:05.895] [INFO] server - Express server listening on port 3000
+[2016-10-16 22:51:05.896] [INFO] console - Express server listening on port 3000
+[2016-10-16 22:51:09.697] [INFO] routes.devicesList - {}
+[2016-10-16 22:51:09.741] [INFO] server - GET /device/show
+[2016-10-16 22:51:12.088] [INFO] routes.devicesList - {}
+[2016-10-16 22:51:12.103] [INFO] server - GET /device/show
+[2016-10-16 22:51:13.553] [INFO] routes.devicesList - {}
+[2016-10-16 22:51:13.573] [INFO] server - GET /device/show
+[2016-10-16 22:54:06.530] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-10-16 22:54:06.533] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-10-16 22:54:06.534] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-10-16 22:54:06.549] [INFO] server - Express server listening on port 3000
+[2016-10-16 22:54:06.550] [INFO] console - Express server listening on port 3000
+[2016-10-16 22:54:32.409] [INFO] routes.devicesList - {}
+[2016-10-16 22:54:32.438] [INFO] server - GET /device/show
+[2016-10-16 22:54:35.847] [INFO] routes.devicesList - {}
+[2016-10-16 22:54:35.864] [INFO] server - GET /device/show
+[2016-10-16 22:54:48.098] [INFO] routes.devicesList - {}
+[2016-10-16 22:54:48.103] [INFO] server - GET /device/show
+[2016-10-16 22:54:57.766] [INFO] routes.devicesList - {}
+[2016-10-16 22:54:57.779] [INFO] server - GET /device/show
+[2016-10-16 22:59:44.067] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-10-16 22:59:44.071] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-10-16 22:59:44.072] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-10-16 22:59:44.085] [INFO] server - Express server listening on port 3000
+[2016-10-16 22:59:44.086] [INFO] console - Express server listening on port 3000
+[2016-10-16 22:59:58.127] [INFO] routes.devicesList - {}
+[2016-10-16 22:59:58.170] [INFO] server - GET /device/show
+[2016-10-16 22:59:59.585] [INFO] routes.devicesList - {}
+[2016-10-16 22:59:59.601] [INFO] server - GET /device/show
+[2016-10-16 23:00:00.799] [INFO] routes.devicesList - {}
+[2016-10-16 23:00:00.813] [INFO] server - GET /device/show
+[2016-10-16 23:02:01.527] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-10-16 23:02:01.530] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-10-16 23:02:01.532] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-10-16 23:02:01.546] [INFO] server - Express server listening on port 3000
+[2016-10-16 23:02:01.547] [INFO] console - Express server listening on port 3000
+[2016-10-16 23:02:05.693] [INFO] routes.devicesList - {}
+[2016-10-16 23:02:05.738] [INFO] server - GET /device/show
+[2016-10-16 23:02:05.860] [INFO] routes.devicesList - {}
+[2016-10-16 23:02:05.872] [INFO] server - GET /device/show
+[2016-10-16 23:02:25.272] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-10-16 23:02:25.275] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-10-16 23:02:25.276] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-10-16 23:02:25.291] [INFO] server - Express server listening on port 3000
+[2016-10-16 23:02:25.292] [INFO] console - Express server listening on port 3000
+[2016-10-16 23:02:29.997] [INFO] routes.devicesList - {}
+[2016-10-16 23:02:30.044] [INFO] server - GET /device/show
+[2016-10-16 23:02:30.813] [INFO] routes.devicesList - {}
+[2016-10-16 23:02:30.829] [INFO] server - GET /device/show
+[2016-10-16 23:02:48.031] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-10-16 23:02:48.034] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-10-16 23:02:48.036] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-10-16 23:02:48.051] [INFO] server - Express server listening on port 3000
+[2016-10-16 23:02:48.052] [INFO] console - Express server listening on port 3000
+[2016-10-16 23:02:53.434] [INFO] routes.devicesList - {}
+[2016-10-16 23:02:53.479] [INFO] server - GET /device/show
+[2016-10-16 23:02:54.001] [INFO] routes.devicesList - {}
+[2016-10-16 23:02:54.010] [INFO] server - GET /device/show
+[2016-10-16 23:02:54.190] [INFO] routes.devicesList - {}
+[2016-10-16 23:02:54.198] [INFO] server - GET /device/show
+[2016-10-16 23:03:15.083] [INFO] routes.devicesList - {}
+[2016-10-16 23:03:15.090] [INFO] server - GET /device/show?id=1001001
+[2016-10-16 23:03:18.174] [INFO] routes.devicesList - {}
+[2016-10-16 23:03:18.187] [INFO] server - GET /device/show?id=1001001
+[2016-10-16 23:03:30.224] [INFO] routes.devicesList - id=1001001
+[2016-10-16 23:03:30.237] [INFO] console - null
+[2016-10-16 23:03:58.490] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-10-16 23:03:58.493] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-10-16 23:03:58.494] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-10-16 23:03:58.510] [INFO] server - Express server listening on port 3000
+[2016-10-16 23:03:58.511] [INFO] console - Express server listening on port 3000
+[2016-10-16 23:04:02.095] [INFO] routes.devicesList - {}
+[2016-10-16 23:04:02.143] [INFO] server - GET /device/show
+[2016-10-16 23:11:00.573] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-10-16 23:11:00.577] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-10-16 23:11:00.579] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-10-16 23:11:00.597] [INFO] server - Express server listening on port 3000
+[2016-10-16 23:11:00.597] [INFO] console - Express server listening on port 3000
+[2016-10-16 23:11:11.374] [INFO] routes.devicesList - {}
+[2016-10-16 23:11:11.425] [INFO] server - GET /device/show
+[2016-10-16 23:11:11.448] [INFO] server - GET /device/static/css/bootstrap.css
+[2016-10-16 23:11:11.453] [INFO] server - GET /device/static/libs/jquery.js
+[2016-10-16 23:11:11.455] [INFO] server - GET /device/static/libs/vue.min.js
+[2016-10-16 23:11:25.493] [INFO] server - GET /device/static/css/bootstrap.css
+[2016-10-16 23:11:33.579] [INFO] routes.devicesList - {}
+[2016-10-16 23:11:33.603] [INFO] server - GET /device/show
+[2016-10-16 23:11:33.638] [INFO] server - GET /device/static/css/bootstrap.css
+[2016-10-16 23:11:33.647] [INFO] server - GET /device/static/libs/jquery.js
+[2016-10-16 23:11:33.650] [INFO] server - GET /device/static/libs/vue.min.js
+[2016-10-16 23:15:12.807] [INFO] routes.devicesList - {}
+[2016-10-16 23:15:12.816] [INFO] server - GET /device/show
+[2016-10-16 23:15:12.847] [INFO] server - GET /device/static/css/bootstrap.css
+[2016-10-16 23:15:12.853] [INFO] server - GET /device/static/libs/jquery.js
+[2016-10-16 23:15:12.854] [INFO] server - GET /device/static/libs/vue.min.js
+[2016-10-16 23:16:37.718] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-10-16 23:16:37.721] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-10-16 23:16:37.722] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-10-16 23:16:37.737] [INFO] server - Express server listening on port 3000
+[2016-10-16 23:16:37.737] [INFO] console - Express server listening on port 3000
+[2016-10-16 23:16:41.272] [INFO] routes.devicesList - {}
+[2016-10-16 23:16:41.316] [INFO] server - GET /device/show
+[2016-10-16 23:16:41.339] [INFO] server - GET /device/static/css/bootstrap.css
+[2016-10-16 23:16:41.346] [INFO] server - GET /device/static/libs/jquery.js
+[2016-10-16 23:16:41.349] [INFO] server - GET /device/static/libs/vue.min.js
+[2016-10-16 23:16:48.204] [INFO] routes.devicesList - {}
+[2016-10-16 23:16:48.219] [INFO] server - GET /device/show
+[2016-10-16 23:16:48.247] [INFO] server - GET /device/static/css/bootstrap.css
+[2016-10-16 23:16:48.253] [INFO] server - GET /device/static/libs/jquery.js
+[2016-10-16 23:16:48.258] [INFO] server - GET /device/static/libs/vue.min.js
+[2016-10-16 23:17:31.693] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-10-16 23:17:31.697] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-10-16 23:17:31.698] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-10-16 23:17:31.713] [INFO] server - Express server listening on port 3000
+[2016-10-16 23:17:31.715] [INFO] console - Express server listening on port 3000
+[2016-10-16 23:17:37.445] [INFO] routes.devicesList - {}
+[2016-10-16 23:17:37.501] [INFO] server - GET /device
+[2016-10-16 23:17:37.528] [INFO] server - GET /static/css/bootstrap.css
+[2016-10-16 23:17:37.532] [INFO] server - GET /static/libs/jquery.js
+[2016-10-16 23:17:37.537] [INFO] server - GET /static/libs/vue.min.js
+[2016-10-16 23:18:23.740] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-10-16 23:18:23.742] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-10-16 23:18:23.744] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-10-16 23:18:23.758] [INFO] server - Express server listening on port 3000
+[2016-10-16 23:18:23.759] [INFO] console - Express server listening on port 3000
+[2016-10-16 23:18:27.771] [INFO] routes.devicesList - {}
+[2016-10-16 23:18:27.833] [INFO] server - GET /device
+[2016-10-16 23:18:27.853] [INFO] server - GET /static/css/bootstrap.css
+[2016-10-16 23:18:27.856] [INFO] server - GET /static/libs/jquery.js
+[2016-10-16 23:18:27.866] [INFO] server - GET /static/libs/vue.min.js
+[2016-10-16 23:19:29.399] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-10-16 23:19:29.402] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-10-16 23:19:29.403] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-10-16 23:19:29.416] [INFO] server - Express server listening on port 3000
+[2016-10-16 23:19:29.416] [INFO] console - Express server listening on port 3000
+[2016-10-16 23:19:35.002] [INFO] routes.devicesList - {}
+[2016-10-16 23:19:35.096] [INFO] server - GET /device
+[2016-10-16 23:19:35.134] [INFO] server - GET /static/css/bootstrap.css
+[2016-10-16 23:19:35.137] [INFO] server - GET /static/libs/jquery.js
+[2016-10-16 23:19:35.145] [INFO] server - GET /static/libs/vue.min.js

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<% include header.html %>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-3 col-md-2 sidebar">
+			<% include sider.html %>
+		</div>
+		<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+			<h3>c端设备管理</h3>
+			<div class="adddevices"><button class="btn btn-primary" v-on:click="addDevices">添加设备</button></div>
+			<my-table></my-table>
+			<ul>
+			<% for(var i=0; i<data.length; i++) {%>
+			   <li><%= data[i] %></li>
+			<% } %>
+			</ul>
+		</div>
+	</div>
+</div>
+<script>
+var ss= "<%= JSON.stringify(data) %>";
+var tableHtml = '<div class="table-responsive">'
+    +'<table class="table table-striped table-hover selfTable">'
+        +'<thead>'
+            +'<tr>'
+                +'<th>编号</th>'
+                +'<th>设备编号</th>'
+                +'<th>设备名称</th>'
+                +'<th>设备IMEI</th>'
+                +'<th>设备入库时间</th>'
+                +'<th>设备状态</th>'
+                +'<th>设备借出状态</th>'
+                +'<th>操作</th>'
+            +'</tr>tr>'
+        +'</thead>thead>'
+        +'<tbody>'
+            +'<tr>'
+                +'<td>1</td>'
+                +'<td>1200002</td>'
+                +'<td>iphone4</td>'
+                +'<td>1244555</td>'
+                +'<td>2016/10/12</td>'
+                +'<td>完好</td>'
+                +'<td>已借出</td>'
+                +'<td><a class="btn btn-sm btn-danger">报废</a>  <a class="btn btn-sm btn-success">归还</a></td>'
+            +'</tr>'
+        +'</tbody>'
+    +'</table>'
++'</div>';
+var table = Vue.extend({
+	template: tableHtml
+});
+var devicesVue = new Vue({
+	components: {
+		'my-table':table
+	}
+});
+</script>

@@ -1,0 +1,345 @@
+[2016-10-24 11:29:45.303] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-10-24 11:29:45.307] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-10-24 11:29:45.308] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-10-24 11:29:45.318] [INFO] console - D:\projectsNew\devicesManage\wmDevicesManage\static
+[2016-10-24 11:29:45.325] [INFO] server - Express server listening on port 3000
+[2016-10-24 11:29:45.326] [INFO] console - Express server listening on port 3000
+[2016-10-24 11:32:18.705] [INFO] routes.devicesList - {}
+[2016-10-24 11:32:18.729] [INFO] server - GET /device
+[2016-10-24 11:32:18.796] [INFO] server - GET /favicon.ico
+[2016-10-24 11:43:51.065] [INFO] routes.devicesList - {}
+[2016-10-24 11:43:51.069] [INFO] server - GET /device
+[2016-10-24 11:43:52.372] [INFO] routes.devicesList - {}
+[2016-10-24 11:43:52.374] [INFO] server - GET /device
+[2016-10-24 11:45:23.261] [INFO] routes.devicesList - {}
+[2016-10-24 11:45:23.270] [INFO] server - GET /device
+[2016-10-24 11:46:47.463] [INFO] routes.devicesList - {}
+[2016-10-24 11:46:47.467] [INFO] server - GET /device
+[2016-10-24 11:47:36.851] [INFO] routes.devicesList - {}
+[2016-10-24 11:47:36.859] [INFO] server - GET /device
+[2016-10-24 11:47:38.532] [INFO] routes.devicesList - {}
+[2016-10-24 11:47:38.536] [INFO] server - GET /device
+[2016-10-24 11:48:15.205] [INFO] routes.devicesList - {}
+[2016-10-24 11:48:15.208] [INFO] server - GET /device
+[2016-10-24 11:50:07.020] [INFO] routes.devicesList - {}
+[2016-10-24 11:50:07.023] [INFO] server - GET /device
+[2016-10-24 11:54:28.083] [INFO] routes.devicesList - {}
+[2016-10-24 11:54:28.090] [INFO] server - GET /device
+[2016-10-24 11:54:28.280] [INFO] routes.devicesList - {}
+[2016-10-24 11:54:28.283] [INFO] server - GET /device
+[2016-10-24 11:54:29.873] [INFO] routes.devicesList - {}
+[2016-10-24 11:54:29.882] [INFO] server - GET /device
+[2016-10-24 11:54:34.067] [INFO] routes.devicesList - {}
+[2016-10-24 11:54:34.070] [INFO] server - GET /device
+[2016-10-24 11:55:05.397] [INFO] routes.devicesList - {}
+[2016-10-24 11:55:05.400] [INFO] server - GET /device
+[2016-10-24 11:55:06.733] [INFO] routes.devicesList - {}
+[2016-10-24 11:55:06.737] [INFO] server - GET /device
+[2016-10-24 11:55:07.009] [INFO] routes.devicesList - {}
+[2016-10-24 11:55:07.011] [INFO] server - GET /device
+[2016-10-24 11:55:42.414] [INFO] routes.devicesList - {}
+[2016-10-24 11:55:42.420] [INFO] server - GET /device
+[2016-10-24 11:55:42.604] [INFO] routes.devicesList - {}
+[2016-10-24 11:55:42.606] [INFO] server - GET /device
+[2016-10-24 11:55:43.487] [INFO] routes.devicesList - {}
+[2016-10-24 11:55:43.493] [INFO] server - GET /device
+[2016-10-24 11:55:43.669] [INFO] routes.devicesList - {}
+[2016-10-24 11:55:43.672] [INFO] server - GET /device
+[2016-10-24 11:55:44.131] [INFO] routes.devicesList - {}
+[2016-10-24 11:55:44.133] [INFO] server - GET /device
+[2016-10-24 11:55:44.389] [INFO] routes.devicesList - {}
+[2016-10-24 11:55:44.393] [INFO] server - GET /device
+[2016-10-24 11:57:04.301] [INFO] routes.devicesList - {}
+[2016-10-24 11:57:04.306] [INFO] server - GET /device
+[2016-10-24 11:57:04.501] [INFO] routes.devicesList - {}
+[2016-10-24 11:57:04.503] [INFO] server - GET /device
+[2016-10-24 11:57:05.582] [INFO] routes.devicesList - {}
+[2016-10-24 11:57:05.587] [INFO] server - GET /device
+[2016-10-24 11:57:05.779] [INFO] routes.devicesList - {}
+[2016-10-24 11:57:05.781] [INFO] server - GET /device
+[2016-10-24 11:57:06.244] [INFO] routes.devicesList - {}
+[2016-10-24 11:57:06.248] [INFO] server - GET /device
+[2016-10-24 11:57:06.450] [INFO] routes.devicesList - {}
+[2016-10-24 11:57:06.453] [INFO] server - GET /device
+[2016-10-24 11:58:06.697] [INFO] routes.devicesList - {}
+[2016-10-24 11:58:06.700] [INFO] server - GET /device
+[2016-10-24 11:58:09.180] [INFO] routes.devicesList - {}
+[2016-10-24 11:58:09.183] [INFO] server - GET /device
+[2016-10-24 11:58:09.385] [INFO] routes.devicesList - {}
+[2016-10-24 11:58:09.388] [INFO] server - GET /device
+[2016-10-24 11:58:47.772] [INFO] routes.devicesList - {}
+[2016-10-24 11:58:47.776] [INFO] server - GET /device
+[2016-10-24 11:58:47.990] [INFO] routes.devicesList - {}
+[2016-10-24 11:58:47.995] [INFO] server - GET /device
+[2016-10-24 11:58:48.760] [INFO] routes.devicesList - {}
+[2016-10-24 11:58:48.762] [INFO] server - GET /device
+[2016-10-24 11:58:49.025] [INFO] routes.devicesList - {}
+[2016-10-24 11:58:49.028] [INFO] server - GET /device
+[2016-10-24 11:58:49.257] [INFO] routes.devicesList - {}
+[2016-10-24 11:58:49.260] [INFO] server - GET /device
+[2016-10-24 12:01:37.354] [INFO] routes.devicesList - {}
+[2016-10-24 12:01:37.357] [INFO] server - GET /device
+[2016-10-24 12:01:37.562] [INFO] routes.devicesList - {}
+[2016-10-24 12:01:37.564] [INFO] server - GET /device
+[2016-10-24 12:01:38.585] [INFO] routes.devicesList - {}
+[2016-10-24 12:01:38.587] [INFO] server - GET /device
+[2016-10-24 13:40:53.492] [INFO] routes.devicesList - {}
+[2016-10-24 13:40:53.495] [INFO] server - GET /device
+[2016-10-24 13:41:05.724] [INFO] routes.devicesList - {}
+[2016-10-24 13:41:05.726] [INFO] server - GET /device
+[2016-10-24 13:41:05.933] [INFO] routes.devicesList - {}
+[2016-10-24 13:41:05.936] [INFO] server - GET /device
+[2016-10-24 13:42:12.392] [INFO] routes.devicesList - {}
+[2016-10-24 13:42:12.395] [INFO] server - GET /device
+[2016-10-24 13:42:13.215] [INFO] routes.devicesList - {}
+[2016-10-24 13:42:13.218] [INFO] server - GET /device
+[2016-10-24 13:42:13.429] [INFO] routes.devicesList - {}
+[2016-10-24 13:42:13.432] [INFO] server - GET /device
+[2016-10-24 14:02:30.820] [INFO] routes.devicesList - {}
+[2016-10-24 14:02:30.827] [INFO] server - GET /device
+[2016-10-24 14:02:45.120] [INFO] routes.devicesList - {}
+[2016-10-24 14:02:45.126] [INFO] server - GET /device
+[2016-10-24 14:03:07.996] [INFO] routes.devicesList - {}
+[2016-10-24 14:03:07.998] [INFO] server - GET /device
+[2016-10-24 14:03:08.207] [INFO] routes.devicesList - {}
+[2016-10-24 14:03:08.209] [INFO] server - GET /device
+[2016-10-24 14:03:08.838] [INFO] routes.devicesList - {}
+[2016-10-24 14:03:08.840] [INFO] server - GET /device
+[2016-10-24 14:03:25.947] [INFO] routes.devicesList - {}
+[2016-10-24 14:03:25.950] [INFO] server - GET /device
+[2016-10-24 14:03:26.782] [INFO] routes.devicesList - {}
+[2016-10-24 14:03:26.788] [INFO] server - GET /device
+[2016-10-24 14:04:47.241] [INFO] routes.devicesList - {}
+[2016-10-24 14:04:47.244] [INFO] server - GET /device
+[2016-10-24 14:05:03.004] [INFO] routes.devicesList - {}
+[2016-10-24 14:05:03.007] [INFO] server - GET /device
+[2016-10-24 14:12:04.729] [INFO] routes.devicesList - {}
+[2016-10-24 14:12:04.732] [INFO] server - GET /device
+[2016-10-24 14:12:05.874] [INFO] routes.devicesList - {}
+[2016-10-24 14:12:05.876] [INFO] server - GET /device
+[2016-10-24 14:12:06.396] [INFO] routes.devicesList - {}
+[2016-10-24 14:12:06.398] [INFO] server - GET /device
+[2016-10-24 14:13:38.692] [INFO] routes.devicesList - {}
+[2016-10-24 14:13:38.697] [INFO] server - GET /device
+[2016-10-24 14:13:40.520] [INFO] routes.devicesList - {}
+[2016-10-24 14:13:40.522] [INFO] server - GET /device
+[2016-10-24 14:16:29.317] [INFO] routes.devicesList - {}
+[2016-10-24 14:16:29.320] [INFO] server - GET /device
+[2016-10-24 14:21:55.352] [INFO] routes.devicesRecord - {}
+[2016-10-24 14:21:55.355] [INFO] console - [ { _id: 580d834ecfd9c4bde75d2327,
+    deviceId: '1001001',
+    IMEI: '1234555',
+    borrowPeple: 'zhangsan',
+    entryPeople: 'lisi',
+    borrowTime: '2016/10/24',
+    returnTime: '2016/10/24',
+    create_date: Mon Oct 24 2016 14:21:55 GMT+0800 (中国标准时间) },
+  { _id: 580da869cfd9c4bde75d2329,
+    deviceId: '1001002',
+    IMEI: '12342222',
+    borrowPeple: 'zhangsan',
+    entryPeople: 'lisi',
+    borrowTime: '2016/10/24',
+    returnTime: '2016/10/24',
+    create_date: Mon Oct 24 2016 14:21:55 GMT+0800 (中国标准时间) } ]
+[2016-10-24 14:21:55.360] [INFO] server - GET /devrecord
+[2016-10-24 14:26:00.850] [INFO] routes.devicesRecord - {}
+[2016-10-24 14:26:00.855] [INFO] console - [ { _id: 580d834ecfd9c4bde75d2327,
+    deviceId: '1001001',
+    IMEI: '1234555',
+    borrowPeple: 'zhangsan',
+    entryPeople: 'lisi',
+    borrowTime: '2016/10/24',
+    returnTime: '2016/10/24',
+    create_date: Mon Oct 24 2016 14:26:00 GMT+0800 (中国标准时间) },
+  { _id: 580da869cfd9c4bde75d2329,
+    deviceId: '1001002',
+    IMEI: '12342222',
+    borrowPeple: 'zhangsan',
+    entryPeople: 'lisi',
+    borrowTime: '2016/10/24',
+    returnTime: '2016/10/24',
+    create_date: Mon Oct 24 2016 14:26:00 GMT+0800 (中国标准时间) } ]
+[2016-10-24 14:26:00.865] [INFO] server - GET /devrecord
+[2016-10-24 14:27:01.718] [INFO] routes.devicesRecord - {}
+[2016-10-24 14:27:01.721] [INFO] console - [ { _id: 580d834ecfd9c4bde75d2327,
+    deviceId: '1001001',
+    IMEI: '1234555',
+    borrowPeple: 'zhangsan',
+    entryPeople: 'lisi',
+    borrowTime: '2016/10/24',
+    returnTime: '2016/10/24',
+    create_date: Mon Oct 24 2016 14:27:01 GMT+0800 (中国标准时间) },
+  { _id: 580da869cfd9c4bde75d2329,
+    deviceId: '1001002',
+    IMEI: '12342222',
+    borrowPeple: 'zhangsan',
+    entryPeople: 'lisi',
+    borrowTime: '2016/10/24',
+    returnTime: '2016/10/24',
+    create_date: Mon Oct 24 2016 14:27:01 GMT+0800 (中国标准时间) } ]
+[2016-10-24 14:27:01.723] [INFO] server - GET /devrecord
+[2016-10-24 14:27:35.633] [INFO] routes.devicesRecord - {}
+[2016-10-24 14:27:35.635] [INFO] console - [ { _id: 580d834ecfd9c4bde75d2327,
+    deviceId: '1001001',
+    IMEI: '1234555',
+    borrowPeople: 'zhangsan',
+    entryPeople: 'lisi',
+    borrowTime: '2016/10/24',
+    returnTime: '2016/10/24',
+    create_date: Mon Oct 24 2016 14:27:35 GMT+0800 (中国标准时间) },
+  { _id: 580da869cfd9c4bde75d2329,
+    deviceId: '1001002',
+    IMEI: '12342222',
+    borrowPeople: 'zhangsan',
+    entryPeople: 'lisi',
+    borrowTime: '2016/10/24',
+    returnTime: '2016/10/24',
+    create_date: Mon Oct 24 2016 14:27:35 GMT+0800 (中国标准时间) } ]
+[2016-10-24 14:27:35.640] [INFO] server - GET /devrecord
+[2016-10-24 14:29:00.814] [INFO] routes.devicesList - {}
+[2016-10-24 14:29:00.821] [INFO] server - GET /device
+[2016-10-24 18:25:29.288] [WARN] console - connect.multipart() will be removed in connect 3.0
+[2016-10-24 18:25:29.291] [WARN] console - visit https://github.com/senchalabs/connect/wiki/Connect-3.0 for alternatives
+[2016-10-24 18:25:29.292] [WARN] console - connect.limit() will be removed in connect 3.0
+[2016-10-24 18:25:29.300] [INFO] console - D:\projectsNew\devicesManage\wmDevicesManage\static
+[2016-10-24 18:25:29.307] [INFO] server - Express server listening on port 3000
+[2016-10-24 18:25:29.308] [INFO] console - Express server listening on port 3000
+[2016-10-24 18:25:58.018] [INFO] routes.devicesList - {}
+[2016-10-24 18:25:58.054] [INFO] server - GET /device
+[2016-10-24 18:26:28.297] [INFO] routes.devicesRecord - {}
+[2016-10-24 18:26:28.301] [INFO] console - [ { _id: 57fe09b27d1dd4215848c45d,
+    deviceId: '1001001',
+    IMEI: '1378989',
+    borrowedPeople: 'zhangsan',
+    entryPeople: 'lisi',
+    borrowedTime: '123890090',
+    returnTime: '1234449',
+    create_date: Mon Oct 24 2016 18:26:28 GMT+0800 (中国标准时间) },
+  { _id: 5804c96891697b0038a003db,
+    deviceId: '1001002',
+    IMEI: '1287900',
+    borrowedPeople: 'lisi',
+    entryPeople: 'lisi',
+    borrowedTime: '123890090',
+    returnTime: '1234449',
+    create_date: Mon Oct 24 2016 18:26:28 GMT+0800 (中国标准时间) } ]
+[2016-10-24 18:26:28.306] [INFO] server - GET /devrecord
+[2016-10-24 18:26:56.335] [INFO] routes.devicesRecord - {}
+[2016-10-24 18:26:56.337] [INFO] console - [ { _id: 57fe09b27d1dd4215848c45d,
+    deviceId: '1001001',
+    IMEI: '1378989',
+    borrowedPeople: 'zhangsan',
+    entryPeople: 'lisi',
+    borrowedTime: '123890090',
+    returnTime: '1234449',
+    create_date: Mon Oct 24 2016 18:26:56 GMT+0800 (中国标准时间) },
+  { _id: 5804c96891697b0038a003db,
+    deviceId: '1001002',
+    IMEI: '1287900',
+    borrowedPeople: 'lisi',
+    entryPeople: 'lisi',
+    borrowedTime: '123890090',
+    returnTime: '1234449',
+    create_date: Mon Oct 24 2016 18:26:56 GMT+0800 (中国标准时间) } ]
+[2016-10-24 18:26:56.341] [INFO] server - GET /devrecord
+[2016-10-24 18:36:09.285] [INFO] routes.devicesList - {}
+[2016-10-24 18:36:09.288] [INFO] server - GET /device
+[2016-10-24 18:36:11.432] [INFO] routes.devicesList - {}
+[2016-10-24 18:36:11.434] [INFO] server - GET /device
+[2016-10-24 18:38:11.248] [INFO] routes.devicesList - {}
+[2016-10-24 18:38:11.251] [INFO] server - GET /device
+[2016-10-24 18:38:11.378] [INFO] routes.devicesList - {}
+[2016-10-24 18:38:11.381] [INFO] server - GET /device
+[2016-10-24 18:38:12.527] [INFO] routes.devicesList - {}
+[2016-10-24 18:38:12.532] [INFO] server - GET /device
+[2016-10-24 18:38:12.697] [INFO] routes.devicesList - {}
+[2016-10-24 18:38:12.701] [INFO] server - GET /device
+[2016-10-24 18:38:14.288] [INFO] routes.devicesList - {}
+[2016-10-24 18:38:14.293] [INFO] server - GET /device
+[2016-10-24 18:38:14.475] [INFO] routes.devicesList - {}
+[2016-10-24 18:38:14.478] [INFO] server - GET /device
+[2016-10-24 18:38:14.887] [INFO] routes.devicesList - {}
+[2016-10-24 18:38:14.891] [INFO] server - GET /device
+[2016-10-24 18:38:15.147] [INFO] routes.devicesList - {}
+[2016-10-24 18:38:15.151] [INFO] server - GET /device
+[2016-10-24 18:38:15.343] [INFO] routes.devicesList - {}
+[2016-10-24 18:38:15.346] [INFO] server - GET /device
+[2016-10-24 18:38:15.520] [INFO] routes.devicesList - {}
+[2016-10-24 18:38:15.523] [INFO] server - GET /device
+[2016-10-24 18:39:33.591] [INFO] routes.devicesList - {}
+[2016-10-24 18:39:33.594] [INFO] server - GET /device
+[2016-10-24 18:39:33.784] [INFO] routes.devicesList - {}
+[2016-10-24 18:39:33.794] [INFO] server - GET /device
+[2016-10-24 18:39:35.033] [INFO] routes.devicesList - {}
+[2016-10-24 18:39:35.037] [INFO] server - GET /device
+[2016-10-24 18:39:35.244] [INFO] routes.devicesList - {}
+[2016-10-24 18:39:35.246] [INFO] server - GET /device
+[2016-10-24 18:39:36.959] [INFO] routes.devicesList - {}
+[2016-10-24 18:39:36.963] [INFO] server - GET /device
+[2016-10-24 18:39:37.183] [INFO] routes.devicesList - {}
+[2016-10-24 18:39:37.186] [INFO] server - GET /device
+[2016-10-24 18:40:44.587] [INFO] routes.devicesList - {}
+[2016-10-24 18:40:44.590] [INFO] server - GET /device
+[2016-10-24 18:41:00.405] [INFO] routes.devicesList - {}
+[2016-10-24 18:41:00.410] [INFO] server - GET /device
+[2016-10-24 18:41:01.343] [INFO] routes.devicesList - {}
+[2016-10-24 18:41:01.345] [INFO] server - GET /device
+[2016-10-24 18:41:01.545] [INFO] routes.devicesList - {}
+[2016-10-24 18:41:01.547] [INFO] server - GET /device
+[2016-10-24 18:41:02.019] [INFO] routes.devicesList - {}
+[2016-10-24 18:41:02.021] [INFO] server - GET /device
+[2016-10-24 18:41:02.207] [INFO] routes.devicesList - {}
+[2016-10-24 18:41:02.210] [INFO] server - GET /device
+[2016-10-24 18:41:03.669] [INFO] routes.devicesList - {}
+[2016-10-24 18:41:03.671] [INFO] server - GET /device
+[2016-10-24 18:43:04.163] [INFO] routes.devicesList - {}
+[2016-10-24 18:43:04.167] [INFO] server - GET /device
+[2016-10-24 18:43:04.362] [INFO] routes.devicesList - {}
+[2016-10-24 18:43:04.366] [INFO] server - GET /device
+[2016-10-24 18:43:06.389] [INFO] routes.devicesList - {}
+[2016-10-24 18:43:06.392] [INFO] server - GET /device
+[2016-10-24 18:43:26.005] [INFO] routes.devicesList - {}
+[2016-10-24 18:43:26.008] [INFO] server - GET /device
+[2016-10-24 18:43:26.196] [INFO] routes.devicesList - {}
+[2016-10-24 18:43:26.199] [INFO] server - GET /device
+[2016-10-24 18:43:27.897] [INFO] routes.devicesList - {}
+[2016-10-24 18:43:27.900] [INFO] server - GET /device
+[2016-10-24 18:44:19.095] [INFO] routes.devicesList - {}
+[2016-10-24 18:44:19.099] [INFO] server - GET /device
+[2016-10-24 18:44:19.317] [INFO] routes.devicesList - {}
+[2016-10-24 18:44:19.320] [INFO] server - GET /device
+[2016-10-24 18:44:19.813] [INFO] routes.devicesList - {}
+[2016-10-24 18:44:19.818] [INFO] server - GET /device
+[2016-10-24 18:44:35.008] [INFO] routes.devicesList - {}
+[2016-10-24 18:44:35.010] [INFO] server - GET /device
+[2016-10-24 18:44:48.831] [INFO] routes.devicesList - {}
+[2016-10-24 18:44:48.835] [INFO] server - GET /device
+[2016-10-24 18:44:49.044] [INFO] routes.devicesList - {}
+[2016-10-24 18:44:49.046] [INFO] server - GET /device
+[2016-10-24 19:22:51.950] [INFO] routes.devicesList - {}
+[2016-10-24 19:22:51.955] [INFO] server - GET /device
+[2016-10-24 19:22:53.658] [INFO] routes.devicesList - {}
+[2016-10-24 19:22:53.661] [INFO] server - GET /device
+[2016-10-24 19:23:12.241] [INFO] routes.devicesList - {}
+[2016-10-24 19:23:12.245] [INFO] server - GET /device
+[2016-10-24 19:24:04.089] [INFO] routes.devicesList - {}
+[2016-10-24 19:24:04.094] [INFO] server - GET /device
+[2016-10-24 19:24:31.936] [INFO] routes.devicesList - {}
+[2016-10-24 19:24:31.940] [INFO] server - GET /device
+[2016-10-24 19:24:33.675] [INFO] routes.devicesList - {}
+[2016-10-24 19:24:33.680] [INFO] server - GET /device
+[2016-10-24 19:26:28.650] [INFO] routes.devicesList - {}
+[2016-10-24 19:26:28.654] [INFO] server - GET /device
+[2016-10-24 19:26:33.010] [INFO] routes.devicesList - {}
+[2016-10-24 19:26:33.012] [INFO] server - GET /device
+[2016-10-24 19:29:29.742] [INFO] routes.devicesList - {}
+[2016-10-24 19:29:29.745] [INFO] server - GET /device
+[2016-10-24 19:32:30.303] [INFO] routes.devicesList - {}
+[2016-10-24 19:32:30.309] [INFO] server - GET /device
+[2016-10-24 19:55:19.436] [INFO] routes.devicesList - {}
+[2016-10-24 19:55:19.439] [INFO] server - GET /device
+[2016-10-24 19:55:25.699] [INFO] routes.devicesList - {}
+[2016-10-24 19:55:25.701] [INFO] server - GET /device
+[2016-10-24 20:14:29.953] [INFO] routes.devicesList - {}
+[2016-10-24 20:14:29.956] [INFO] server - GET /device

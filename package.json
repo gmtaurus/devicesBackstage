@@ -1,0 +1,21 @@
+{
+  "name": "devices_001",
+  "version": "1.0.0",
+  "description": "cfe devices manage",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "gaomin@iwm.baidu.com",
+  "license": "ISC",
+  "dependencies": {
+    "connect-mongo": "*",
+    "ejs": "*",
+    "express": "3.5.1",
+    "log4js": "*",
+    "moment": "^2.6.0",
+    "mongoose": "*",
+    "q": "^1.0.1",
+    "session-mongoose": "*"
+  }
+}
